@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<title>Contact</title>
+	<link rel="stylesheet" href="style/style.css" />
+	<link rel="stylesheet" href="style/menu.css" />
+	<link rel="stylesheet" href="style/formulaire.css" />
+</head>
+
+<body>
+	<header>
+		<a href="index.html"><img src="images/logo.png" alt="Logo de Dep Info"/></a>
+		<h1>DEP INFO</h1>
+	</header>
+
+	<nav>
+		<ul>
+			<li class="deroulant"><a href="index.html">Accueil</a></li>
+			<li class="deroulant addSymb"><a>L'entreprise</a>
+				<ul class="sous">
+					<li><a href="histoire.html">Histoire</a></li>
+					<li><a href="quisommesnous.html">Qui sommes-nous ?</a></li>
+				</ul>
+			</li>
+			<li class="deroulant"><a href="services.html">Services</a></li>
+			<li class="deroulant"><a href="contact.html">Contact</a></li>
+		</ul>
+	</nav>
+
+	<section class="conteneur">
+
+		<gauche>
+		<h1>Vous souhaitez nous contacter ? Vous souhaiter un devis ? </br>
+			Pas de soucis, pour cela, il suffit de remplir le formulaire ci-dessous :</h1>
+
+			<div class="contactez-nous">
+				<form action="/page-traitement-donnees" method="post">
+				<div>
+				<label for="nom">Votre nom</label>
+				<input type="text" id="nom" name="nom" placeholder="Martin DUPOND" required>
+				</div>
+				<div>
+				<label for="email">Votre e-mail</label>
+				<input type="email" id="email" name="email" placeholder="monadresse@gmail.com" required>
+				</div>
+				<div>
+				<label for="sujet">Quel est le sujet de votre message ?</label>
+				<input type="sujet" id="sujet" name="sujet" placeholder="demande de rendez-vous" required>
+
+
+				</select>
+				</div>
+				<div>
+				<label for="message">Votre message</label>
+				<textarea id="message" name="message" placeholder="Bonjour, je vous contacte car...." required></textarea>
+				</div>
+				<div>
+				<button type="submit">Envoyer mon message</button>
+				</div>
+				</form>
+				</div>
+			</gauche>
+
+			<droite>
+				
+
+
+			<maps>
+				<h1>
+					Vous souhaitez nous rencontrer ? </br> Pas de soucis, nos bureaux sont situés au 3 Boulevard de la Moselle à Lille FRANCE 59000
+	
+				</h1>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2530.8591512367843!2d3.032374415900962!3d50.62973328231118!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c2d5658726cb29%3A0x1cfc715c38cfd85c!2s3%20Bd%20de%20la%20Moselle%2C%2059000%20Lille!5e0!3m2!1sfr!2sfr!4v1635530659666!5m2!1sfr!2sfr" width="700" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+			</maps>
+		</droite>
+
+		<p>
+			Nous nous ferons une joie de vous accueilir et pouvoir discuter de votre projet ! </br>
+			Nous avons hâte de commencer avec vous votre évolution !
+		</p>
+		</section>
+		<footer>
+			<mail>
+				<a href="mailto:contact@depinfo.fr">contact@depinfo.fr</a>
+			</mail>
+			<rs>
+				<a href="https://www.facebook.com"><img src="images/facebook.png" alt="Image"></a>
+				<a href="https://www.linkedin.com"><img src="images/linkedin.png" alt="Image"></a>
+			</rs>
+			<p class="d-flex justify-center align-center">Tous droits réservés DepInfo Copyright © 2021.
+		</footer>
+</body>
+</html>

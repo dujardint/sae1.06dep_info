@@ -1,0 +1,204 @@
+fonddecran {		/*DESACTIVER =rajouter un d pour l'activer*/
+	/* Fixe l'image en haut à gauche de la page */
+	position: center; 
+	top: 0; 
+	left: 0; 
+	/* Préserve le ratio de l'image */
+	min-width:00%;
+	min-height: 100%;
+}
+   
+body{
+	background-color: white;
+	color:black;
+	margin:0;
+	font-size: large;
+	text-align: justify;
+}
+   
+.background{
+	background-image: url("../images/accueil.jpg");
+	height: 600px;
+	background-size: cover;
+	position: relative;
+}
+
+section{
+	color:black;
+	padding:1%;
+}
+
+section>h1{
+	margin-bottom:1%;
+	font-family:Segoe UI;
+}
+
+/*<style>*/
+
+.contenant {
+	position: relative;
+	text-align: center;
+	color: white;
+}
+   
+.texte_centrer {
+	position: absolute;
+	top: 10%;
+	left: 3%;
+	font-size: 3em;
+	font-weight: bold;
+	color: #e4a423;
+	text-shadow: 1px 3px 5px black;
+}
+   
+.texte2_centrer {
+	position: absolute;
+	top: 30%;
+	left: 3%;
+	font-size: 2em;
+	color: white;
+}
+   
+/*</style>*/
+   
+.boutonSavoir {
+	border: 0;
+	line-height: 2.5;
+	padding: 0 20px;
+	font-size: 1rem;
+	text-align: center;
+	color:navy;
+	text-shadow: 1px 1px 1px #000;
+	border-radius: 10px;
+	background-color: rgba(220, 220, 220, 1);
+	background-image: linear-gradient(to top left,
+										rgba(0, 0, 0, .2),
+										rgba(0, 0, 0, .2) 30%,
+										rgba(0, 0, 0, 0));
+	box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+				inset -2px -2px 3px rgba(0, 0, 0, .6);
+				position: absolute;
+				left:    0;
+				bottom:   0;
+				margin:1%;
+}
+   
+.boutonSavoir:hover {
+	background-color: rgba(150, 150, 150, 1);
+}
+   
+.boutonSavoir:active {
+	box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+				inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+   
+table{
+	border-spacing: 10px;
+}
+   
+.containTemoignages{
+	display:flex;
+	justify-content:center;
+	flex-wrap:wrap;
+	margin:0 1.5% 1.5% 1.5%;
+}
+   
+.containTemoignages .Temoignage{
+	width:260px;
+	height:auto;
+	background-color: rgb(33, 151, 197);
+	color:white;
+	box-shadow:0 2px 2px rgba(0,0,0,0.2);
+	overflow:hidden;
+	text-align:center;
+	transition:all 0.25s;
+	border-radius:4px;
+	margin:20px;
+	padding:10px;
+}
+   
+.containTemoignages .Temoignage:hover{
+	transform:translateY(-15px);
+	box-shadow:0 12px 16px rgba(0,0,0,0.2);
+}
+   
+.containTemoignages .Temoignage h4{
+	font-weight:600;
+	padding: 5%;
+}
+   
+.containTemoignages .Temoignage p{
+	padding:0 1rem;
+	font-size:16px;
+	font-weight:300;
+}
+
+.contact {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 64px;
+}
+   
+gauche {
+	width: 50%;
+	height: 100%;
+	float: left;
+	text-align: center;
+}
+   
+droite {
+	width: 50%;
+	height: 100%;
+	float: right;
+	text-align: center;
+}
+   
+   
+biographie{
+	text-align: justify;
+}
+   
+centre{
+	text-align: center;
+}
+   
+footer{
+	position:relative;
+	bottom:0;
+	left:0;
+	right:0;
+	padding:5px;
+	display:flex;
+	flex-direction:column;
+	text-align: end;
+}
+   
+footer>mail{
+	text-align: center;
+}
+   
+footer>p{
+	display:flex;
+	justify-content:center;
+	font-family:Verdana, Tahoma, sans-serif;
+	font-size:0.8rem;
+	font-weight:600;
+	color:black;
+}
+   
+#partenaires > img {
+	height: 100px;
+	width:auto;
+	padding-left: 5%;
+	padding-right: 5%
+}
+   
+rs{
+	text-align: center;
+}
+   
+rs > a > img{
+	height: 20px;
+	width: auto;
+	padding: 0.5%;
+}
